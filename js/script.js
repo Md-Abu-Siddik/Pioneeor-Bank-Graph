@@ -77,7 +77,7 @@ function graphShow(){
 
     var xValues = ["Deposit", "Withdraw", "Balance"];
     var yValues = [depositFloat, widthdrawFloat, totalFloat];
-    var barColors = ["red", "green", "blue", "orange", "brown"];
+    var barColors = ["slateblue", "lightsalmon", "orange"];
 
     new Chart("myChart", {
         type: "bar",
